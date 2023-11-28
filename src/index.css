@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 1; /* Ensure the content is below the navbar */
+}
+.bgimage{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: -1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.home{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbaraaa {
+  position: static;
+  z-index: 100;
+  background-color: transparent; /* Set initial background color */
+  transition: background-color 0.3s ease;
+}
+
+.navbaraaa.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff; /* Change the background color when sticky */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Add some animation to the navbar links */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #28a745; /* Change the color on hover */
+}
+
+/* Add a subtle zoom effect to the navbar brand */
+.navbar-brand {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.10); /* Zoom in a bit on hover */
+}
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+  margin-right: 25px; /* Adjust the right margin to create space between links */
+}
+
+.navbar-nav .nav-link:hover {
+  color:black; /* Change the color on hover */
+  transform: scale(1.10);
+  transition: transform 0.3s ease
+}
+
+/* Add these styles to your existing styles or create a new stylesheet */
+
+/* Add these styles to your existing styles or create a new stylesheet */
+
+.note-card {
+  transition: transform 0.3s ease; /* Add a smooth scale transition on hover */
+}
+
+.note-card:hover {
+  transform: scale(1.05); /* Zoom in a bit on hover */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container i {
+  font-size: 1.5rem; /* Adjust the icon size */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  cursor: pointer;
+}
+
+/* .icon-container i:hover {
+  color: red; /* Change the color on hover */
+  */
+
+
+
+
+
+.home{
+  position: relative;
+  z-index: 1; /* This will make the home component appear over the background image */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+}
+
+.card-body{
+background-color:rgba(14, 13, 13, 0.148);
+}
+.form-group{
+
+  background-color:rgba(14, 13, 13, 0.148);
+
+}
+.paragraph{
+  font-size:large;
+}
+
+.btn-success{
+background-color: dimgray;}
+
+
+
+
+
+/* Add notes css */
+/* Add these styles to your existing styles or create a new stylesheet */
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+/* index.css */
+html {
+  scroll-behavior: smooth;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.delete-icon,
+.edit-icon {
+  color: black; /* Default color */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.delete-icon:hover {
+  color: red; /* Change the color on hover */
+}
+
+.edit-icon:hover {
+  color: blue; /* Change the color on hover */
+}
+.view-icon:hover {
+  color: rgb(0, 255, 251); /* Change the color on hover */
+}
+/* Add this to your existing styles or create a new stylesheet */
+.rounded-corners {
+  border-radius: 10px;
+  overflow: hidden; /* Ensure content doesn't overflow rounded corners */
+}
+/* Add this to your CSS file or within your component styles */
+
+/* Home Animation */
+.home-container {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Contact Animation */
+.contact-containeraa {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* About Animation */
+.about-container {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.LoginAnirud {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.SignupAnirud {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.alert {
+  animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  10%, 90% {
+    opacity: 1;
+  }
+}
+/* Navbar Animation */
+.navbaraaa {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sticky {
+  background-color: #333; /* Change the color when sticky */
+}
+
+
+/* Add this to your CSS file */
+
+/* Alert Animation */
+.alert-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  z-index: 1000;
+}
+
+.alert {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.alert.show {
+  opacity: 1;
+}
+
+/* Your other styles */
+
+/* Add this at the end */
+.footer-social i {
+  color: black;
+}
+/* Add this style to your CSS or use inline styles in the modal component */
+.red-modal {
+  background-color: #ffcccc; /* Light red background color */
+  color: #cc0000; /* Dark red text color */
+}
+
+
+
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1581816163783-7d868ba11739?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRpYXJ5fGVufDB8fDB8fHww);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  z-index: 9999;
+  animation: fadeInOut 3s ease-in-out;
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .additional-content {
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .heart {
+    color: #ff5252;
+    animation: heartbeat 1s infinite;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+
