@@ -1,3 +1,41 @@
+# Cloud Diary App
+
+Cloud Diary is a secure note-taking application that allows users to create, view, edit, and delete notes securely in the cloud. The app employs industry-standard security practices, including bcrypt.js for password hashing, salting, and JWT token system for user authentication.
+
+## Features
+
+- **Secure Authentication:**
+  - User accounts are securely stored on MongoDB Atlas in the cloud.
+  - Passwords are hashed and salted using bcrypt.js for enhanced security.
+
+- **User-Friendly Interface:**
+  - Animated and visually appealing navbar and footer for an enhanced user experience.
+  - Intuitive login and signup pages.
+
+- **Note Management:**
+  - Create and add notes with a title and description.
+  - Notes are securely stored in the cloud using MongoDB Atlas.
+  - View, edit, and delete notes conveniently.
+
+- **JWT Token System:**
+  - Implements a JWT (JSON Web Token) system for secure user authentication.
+  - Users receive a token upon successful login, which is used for subsequent authenticated requests.
+
+## Getting Started
+
+Follow these steps to set up the Cloud Diary app on your local machine:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/cloud-diary-app.git
+## Technologies Used
+  -Frontend: React.js
+  -Backend: Node.js, Express.js
+  -Database: MongoDB Atlas
+  -Authentication: bcrypt.js, JWT
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
